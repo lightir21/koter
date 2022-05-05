@@ -40,13 +40,18 @@ const ActivityForm = () => {
         </div>
 
         <div className="contact-1">
-          <label htmlFor="contact-1">מספר מחלקה</label>
+          <label htmlFor="contact-1">איש קשר 1</label>
           <input type="text" name="contact-1" id="contact-1" />
         </div>
 
         <div className="contact-2">
-          <label htmlFor="contact-2">מספר מחלקה</label>
+          <label htmlFor="contact-2">איש קשר 2</label>
           <input type="text" name="contact-2" id="contact-2" />
+        </div>
+
+        <div className="additional">
+          <label htmlFor="additional">הערות</label>
+          <input type="text" name="additional" id="additional" />
         </div>
       </form>
     </div>
