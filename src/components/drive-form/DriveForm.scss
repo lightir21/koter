@@ -1,0 +1,15 @@
+.form {
+  display: flex;
+  font-size: 1.2rem;
+  justify-content: center;
+
+  &__input-box {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+
+  &__input {
+    width: 10rem;
+  }
+}
